@@ -1,82 +1,119 @@
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
 
     .hamburger {
         display: block;
         margin-right: 15px;
-        
+
     }
+
     .navbar {
         display: none;
 
     }
-    
-.logo-sec img {
 
-    width: 30px;
-}
+    .logo-sec img {
 
-.logo-sec h1 {
-    font-size: 1.5rem;
-}
+        width: 30px;
+    }
 
-.logo-travel {
-    font-size: 2rem;  
-}
+    .logo-sec h1 {
+        font-size: 1.5rem;
+    }
 
-/* nav end  */
+    .logo-travel {
+        font-size: 2rem;
+    }
 
-/* banner start  */
-.banner {
-    margin-top: 40px;
-    padding: 10% 2%;
-}
-    
-.banner-tex-box h1 {
-    font-size: 1.8rem;
-    margin: 20px 0px;
-}
+    /* nav end  */
 
-.banner-form {
- 
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin: 8px;
-   
+    /* banner start  */
+    .banner {
+        margin-top: 40px;
+        padding: 10% 2%;
+    }
 
-}
-.banner-form input,
-select,
-button {
-    width:100%;
-}
+    .banner-tex-box h1 {
+        font-size: 1.8rem;
+        margin: 20px 0px;
+    }
 
-/* tour start */
+    .banner-form {
 
-.Tours-secttion {
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.tour-content-box, .tour-image-box {
-    width: 100%;
-
-}
-.tour-title{
-font-size: 1.7rem;
-
-}
-.tour-content-box p, .tour-content-box li {
-
-    line-height: 25px;
-    font-size: 1.1rem;
-
-}
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 8px;
 
 
-/* tour end  */
+    }
+
+    .banner-form input,
+    select,
+    button {
+        width: 100%;
+    }
+
+    /* tour start */
+
+    .Tours-secttion {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .tour-content-box,
+    .tour-image-box {
+        width: 100%;
+
+    }
+
+    .tour-title {
+        font-size: 1.4rem;
+
+    }
+
+    .tour-content-box p,
+    .tour-content-box li {
+
+        line-height: 25px;
+        font-size: 1.1rem;
+
+    }
+
+
+    /* tour end  */
+
+
+
+    /* <!-- Destination  secrion start--> */
+
+    .destination-titll {
+        font-size: 1.3rem;
+    }
+
+    .destination-section p {
+        width: 80%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            "box1 "
+            "box2 "
+            "box3 "
+            "box4 "
+            "box5 "
+            "box6 "
+            "box7 "
+        ;
+    }
+
+
+
+
+    /* <!-- Destination  secrion end --> */
+
 
 
 }
