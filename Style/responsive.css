@@ -111,9 +111,43 @@
 
 
 
-
     /* <!-- Destination  secrion end --> */
 
+/* choose section start  */
 
+
+.choose-title {
+    font-size: 1.3rem;
 
 }
+
+.ch-para{
+    text-align: center;
+    width: 95%;
+    margin: 24px auto;
+}
+
+.choose-upper-box {
+    flex-direction: column;
+    gap: 25px;
+}
+.choose-card {
+    width: 100%;
+}
+
+
+    /* choose section end  */
+
+/* demo-secrion start   */
+.demo-secrion {
+   flex-direction: column;
+}
+
+.demo-content , .demo-video {
+
+    width: 100%;
+}
+
+
+    /* demo-secrion end  */
+
