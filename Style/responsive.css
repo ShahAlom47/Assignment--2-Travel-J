@@ -151,3 +151,50 @@
 
     /* demo-secrion end  */
 
+
+    /* letter section start  */
+
+    .letter-sec {
+        flex-direction: column;
+
+    }
+
+    .form-box  {
+        width: 100%;
+        padding: 20px;
+    }
+    .img-box {
+        width: 100%;
+        height: 300px;
+
+    }
+    
+
+    .img-tag {
+        width: 73%;
+        top: 54%;
+        left: 26.5%;
+    
+    }
+    
+    .img-tag h2 {
+        font-size: 1rem;
+    }
+    
+    .img-tag h1 {
+        font-size: 1.3rem;
+    }
+
+    /* letter section end */
+
+    /* footer start  */
+
+    footer{    
+        padding: 10% 10% 2% 10% ;
+        }
+
+
+
+
+    /* footer end  */
+
