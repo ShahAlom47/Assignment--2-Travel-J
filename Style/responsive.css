@@ -138,6 +138,25 @@
 
     /* choose section end  */
 
+
+   /* <!-- Happy Travelers start --> */
+
+   .traveler-card {
+    flex-direction: column;
+}
+
+.traveler-photo {
+
+    width: 100%;
+    margin-top: 20px;
+}
+.traveler-card-discription {
+    width: 100%;
+}
+
+    /* <!-- Happy Travelers end --> */
+
+
 /* demo-secrion start   */
 .demo-secrion {
    flex-direction: column;
@@ -198,3 +217,5 @@
 
     /* footer end  */
 
+
+ 

@@ -67,6 +67,8 @@ body {
 header {
     width: 80%;
     margin: auto;
+    position: relative;
+  
 }
 
 nav {
@@ -74,13 +76,19 @@ nav {
     display: flex;
     justify-content: space-between;
 
-
+    position: sticky;
+    top: 0; 
+    z-index: 100;
+    background-color: #FFF;
     align-items: center;
     padding: 10px 0;
 }
 
 
-.navbar {}
+.navbar {
+
+  
+}
 
 .navbar ul {
     list-style: none;
@@ -548,6 +556,104 @@ main {
 
 /* choose section end  */
 
+/* traveler section start */
+
+.happy-traveler {
+    margin-top: 100px;
+    padding: 10%;
+
+}
+
+.traveler-title {
+
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.travelars-container {}
+
+.traveler-card {
+    display: flex;
+    align-items: center;
+background-color:#dfe1e3;
+    margin: 40px auto;
+    padding:1px 5%;
+    border-radius: 15px;
+
+
+}
+
+.traveler-photo {
+
+    width: 40%;
+}
+
+.traveler-photo img {
+    width: 100%;
+     padding: 5px;
+     border-radius: 50%;
+     border: solid rgb(157, 137, 137) 4px;
+}
+
+
+.traveler-name {
+
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.traveler-card-discription {
+    width: 60%;
+
+    padding: 5% 0% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.traveler-card-discription p {
+    font-style: italic;
+}
+
+.card-destination-box {
+    width: 30%;
+    margin-top: 16px;
+}
+
+.card-destination-box h6,
+h3 {
+    text-align: center;
+}
+
+
+.travel-btn{
+
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: auto;
+display: block;
+}
+
+
+
+
+/* traveler section end */
+
+
+
+
+
 
 /* demo-secrion start  */
 
@@ -778,7 +884,7 @@ footer {
 
 
 .footer-title {
-    
+
     justify-content: center;
 
 }
@@ -800,7 +906,7 @@ footer {
     width: 35px;
 }
 
-.footer-social-link a:hover{
+.footer-social-link a:hover {
     transform: scale(1.1);
 }
 
