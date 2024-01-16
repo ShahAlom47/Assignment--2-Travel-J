@@ -138,6 +138,23 @@
 
     /* choose section end  */
 
+    /* <!-- package  section start --> */
+    .package-discription {
+
+        width: 80%;
+    }
+
+    .package-box {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .price-card {
+        width: 100%;
+      margin-top: 250px;
+    
+    }
+    /* <!-- package  section end --> */
 
    /* <!-- Happy Travelers start --> */
 
